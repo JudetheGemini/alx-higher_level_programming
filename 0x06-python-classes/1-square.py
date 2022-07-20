@@ -3,10 +3,16 @@
 with a private attribute
 
 """
-class Square():
+class Square:
+    """Square class containing private attribute.
+
+        Attributes:
+            size (int): Width of the square
+    """
     def __init__(self, size):
-        ''' Square class with a private attribute
-        Args:
-        size(int): Size of the square
-        '''
+        """__init___ method of the class
+
+            Args:
+                size(int): Size of the square
+        """
         self.__size = size
