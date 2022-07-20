@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Module which uses a setter
+"""
+
 class Square:
     """ A class that defines a square by its size
     """
